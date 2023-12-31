@@ -6,11 +6,12 @@ public class Bai10 {
         long kq = 1;
         int i = 1;
         System.out.print("Nhap so can tinh: ");
-        int a = sc.nextInt();
+        int x = sc.nextInt();
         System.out.print("Nhap so mu: ");
-        int b = sc.nextInt();
-        while (i <= b) {
-        	kq *= a; i++;
+        int n = sc.nextInt();
+        while (i <= n) {
+        	kq *= x;
+		i++;
 	    }
         System.out.println("Ket qua la: " + kq);
     }
