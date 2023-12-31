@@ -6,11 +6,11 @@ public class Bai6 {
         double sum = 0;
         int i = 1;
         System.out.print("Nhap so can tinh: ");
-        int a = sc.nextInt();
-        if (a < 1) {
+        int n = sc.nextInt();
+        if (n < 1) {
             System.out.println("\nSo phai lon hon hoac bang 1. Nhap lai !");
         } else {
-            while (i <= a) {
+            while (i <= n) {
                 sum = sum + 1.0/(i*(i+1));
 				i++;
             }
