@@ -4,10 +4,10 @@ class Bai2 {
 	public static void main (String[] args) {
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Nhap so can tinh: ");
-	int a = sc.nextInt();
+	int n = sc.nextInt();
 	int sum=0;
 	int i=0;
-	while (i<=a)
+	while (i<=n)
 	{sum = sum + i*i; i++;}
 	System.out.println("Tong binh phuong tu 1 đến so n là: "+sum);
 	}
