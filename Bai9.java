@@ -6,8 +6,8 @@ public class Bai9 {
         long kq = 1;
         int i = 1;
         System.out.print("Nhap so can tinh: ");
-        int a = sc.nextInt();
-        while (i <= a) {
+        int n = sc.nextInt();
+        while (i <= n) {
         	kq = kq * i;
 		i++;
 	}
