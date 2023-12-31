@@ -8,7 +8,7 @@ public class Bai9 {
         System.out.print("Nhap so can tinh: ");
         int a = sc.nextInt();
         while (i <= a) {
-        	kq = kq * I;
+        	kq = kq * i;
 		i++;
 	}
         System.out.println("Ket qua la: " + kq);
