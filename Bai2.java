@@ -9,6 +9,6 @@ class Bai2 {
 	int i=0;
 	while (i<=a)
 	{sum = sum + i*i; i++;}
-	System.out.println("Tong từ 1 đến so n là: "+sum);
+	System.out.println("Tong binh phuong tu 1 đến so n là: "+sum);
 	}
 }
