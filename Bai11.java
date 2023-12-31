@@ -7,11 +7,11 @@ public class Bai11 {
         long kq = 0;
         int i = 1;
         System.out.print("Nhap so can tinh: ");
-        int a = sc.nextInt();
-        while (i <= a) {
-        	pt = pt * i;
-            kq += pt; 
-		    i++;
+        int n = sc.nextInt();
+        while (i <= n) {
+        	pt = pt * I;
+        	kq += pt; 
+		i++;
 	}
         System.out.println("Ket qua la: " + kq);
     }
