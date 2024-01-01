@@ -9,10 +9,10 @@ public class Bai15 {
         System.out.print("Nhap so can tinh: ");
         int n = sc.nextInt();
         while (i <= n) {
-        	ms += x;
-            kq += 1/x; 
-            i++;
-	    }
+        	ms += i;
+        	kq += 1/ms; 
+        	i++;
+	}
         System.out.println("Ket qua la: " + kq);
     }
 }
